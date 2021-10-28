@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Erzeugungsmuster\" />
+    <None Remove="Objektorientiert\" />
+    <None Remove="2. Strukturmuster\" />
+    <None Remove="1. Erzeugungsmuster\Objektbasiert\" />
+    <None Remove="1. Erzeugungsmuster\Klassenbasiert\" />
+    <None Remove="2. Strukturmuster\Klassenbasiert\" />
+    <None Remove="2. Strukturmuster\Objektbasiert\" />
+    <None Remove="2. Strukturmuster\Objektbasiert\FacadeLib\" />
+    <None Remove="2. Strukturmuster\Objektbasiert\FlightweightPattern\" />
+    <None Remove="2. StructuralPattern\Objectbased\CompositePattern\" />
+    <None Remove="2. StructuralPattern\Objectbased\ProxyPattern\" />
+    <None Remove="3. BehaviouralPattern\ClassBased\" />
+    <None Remove="3. BehaviouralPattern\ObjectBased\" />
+    <None Remove="1. CreationalPattern\Object_Based\" />
+    <None Remove="1. CreationalPattern\Object_Based\AbstractFactory\" />
+    <None Remove="3. Behavioural_Patterns\Object_Based\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1. Creational_Patterns\" />
+    <Folder Include="2. Structural_Patterns\" />
+    <Folder Include="1. Creational_Patterns\Class_Based\" />
+    <Folder Include="2. Structural_Patterns\Class_Based\" />
+    <Folder Include="2. Structural_Patterns\Object_Based\CompositePattern\" />
+    <Folder Include="2. Structural_Patterns\Object_Based\ProxyPattern\" />
+    <Folder Include="1. Creational_Patterns\Object_Based\" />
+    <Folder Include="1. Creational_Patterns\Object_Based\AbstractFactory\" />
+    <Folder Include="3. Behavioural_Patterns\Object_Based\" />
+  </ItemGroup>
+</Project>
